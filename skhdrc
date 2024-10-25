@@ -1,0 +1,13 @@
+rcmd - f: open -a /Applications/WezTerm.app
+
+rcmd - d: open -a /Applications/Firefox.app
+
+rcmd - s: open -a Visual\ Studio\ Code.app
+
+rcmd - a: open -a /Applications/Discord.app
+
+rcmd - c: open -a /Applications/Microsoft\ Teams.app
+
+rcmd - z: open -a /Applications/Docker.app
+
+rcmd - x: open -a /Applications/Obsidian.app
