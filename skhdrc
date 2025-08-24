@@ -1,13 +1,21 @@
-rcmd - f: open -a /Applications/WezTerm.app
+# rcmd - f: open -a /Applications/WezTerm.app
 
-rcmd - d: open -a /Applications/Firefox.app
+# rcmd - d: open -a /Applications/Firefox.app
 
-rcmd - s: open -a Visual\ Studio\ Code.app
+# rcmd - s: open -a Visual\ Studio\ Code.app
 
-rcmd - a: open -a /Applications/Discord.app
+# rcmd - a: open -a /Applications/Discord.app
 
-rcmd - c: open -a /Applications/Microsoft\ Teams.app
+# rcmd - c: open -a /Applications/Microsoft\ Teams.app
 
-rcmd - z: open -a /Applications/Docker.app
+# rcmd - z: open -a /Applications/Docker.app
 
-rcmd - x: open -a /Applications/Obsidian.app
+# rcmd - x: open -a /Applications/Obsidian.app
+
+lcmd + shift - h : osascript "${HOME}"/.config/skhd/scripts/toggle_app.scpt "Microsoft Teams"
+lcmd + shift - j : osascript "${HOME}"/.config/skhd/scripts/toggle_app.scpt "Firefox"
+lcmd + shift - k : osascript "${HOME}"/.config/skhd/scripts/toggle_app.scpt "Wezterm"
+lcmd + shift - l : osascript "${HOME}"/.config/skhd/scripts/toggle_app.scpt "Obsidian"
+lcmd + shift - o : osascript "${HOME}"/.config/skhd/scripts/toggle_app.scpt "Discord"
+
+# lcmd + shift - m : osascript "${HOME}"/.config/yabai/scripts/toggle_app.scpt "Obsidian"
